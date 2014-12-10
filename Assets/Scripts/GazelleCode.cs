@@ -101,9 +101,9 @@ public class GazelleCode : MonoBehaviour {
 			Flip ();
 		else if (pos2.x < pos1.x && facingRight)
 			Flip ();
-		if (hit.collider.gameObject.name == "AvoidArea" || hit.collider.gameObject.tag == "Player") {
-			FindPos();
-		}
+//		if (hit.collider.gameObject.name == "AvoidArea" || hit.collider.gameObject.tag == "Player") {
+//			FindPos();
+//		}
 	}
 
 	public void SetSpeed(float s) {
